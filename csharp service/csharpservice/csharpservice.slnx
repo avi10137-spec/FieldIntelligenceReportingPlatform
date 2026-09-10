@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="csharpconsumer/csharpconsumer.csproj" />
+  <Project Path="ReportApi/ReportApi.csproj" />
+</Solution>
