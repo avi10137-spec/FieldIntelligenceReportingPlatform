@@ -31,9 +31,6 @@ public class ReportsController : ControllerBase
         return Ok(reports);
     }
 
-    /// <summary>
-    /// סטטיסטיקות ותמונת מצב מצטברת על הדיווחים
-    /// </summary>
     [HttpGet("reports/statistics")]
     public async Task<ActionResult<ReportStatisticsDto>> GetStatistics()
     {
@@ -41,9 +38,6 @@ public class ReportsController : ControllerBase
         return Ok(stats);
     }
 
-    /// <summary>
-    /// היסטוריית פעילות של ישות (Subject) ממוינת כרונולוגית
-    /// </summary>
     [HttpGet("subjects/{subjectId}/reports")]
     public async Task<ActionResult<IEnumerable<ReportDto>>> GetBySubject([FromRoute] string subjectId)
     {
