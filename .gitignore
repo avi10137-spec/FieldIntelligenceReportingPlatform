@@ -1,0 +1,72 @@
+# ==========================================
+# Python
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Environment Variables / Local configs
+.env
+.env.local
+
+
+# ==========================================
+# C# / .NET
+# ==========================================
+# Build outputs
+[Bb]in/
+[Oo]bj/
+out/
+
+# Visual Studio / JetBrains Rider IDE
+.vs/
+.idea/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# Test Results & Logs
+[Tt]est[R]esult*
+[Bb]uild[L]og.*
+
+
+# ==========================================
+# General & OS
+# ==========================================
+.DS_Store
+Thumbs.db
+*.log
+
